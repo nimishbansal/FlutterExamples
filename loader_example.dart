@@ -131,7 +131,6 @@ class _MyHomePageState extends State<MyHomePage>
     super.initState();
     animationController = AnimationController(
             vsync: this, value: 0, duration: Duration(milliseconds: 2000))..repeat();
-//    _playAnimation();
   }
 
   @override
